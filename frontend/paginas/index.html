@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang ="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Byvagner</title>
+        <link rel="stylesheet" href="../style.css" />
+        
+    </head>
+    <body>
+        <!--Dentro del div estara mi login -->
+        <div class="container"> 
+            <div class="container-form">
+                <form class="sign-in">
+                    <!--division 1 -->
+                    <h2>Iniciar sesion</h2>
+                    <div class="social-networks">
+                        <!--Aca colocamos los iconos-->
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <ion-icon name="logo-twitch"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                    <samp>Use Correo y contrasenia</samp>
+                    <div class="container-input">
+                        <ion-icon name="mail-unread-outline"></ion-icon>
+                        <input type="text" placeholder="Tu correo papi">
+                    </div>
+                    <div class="container-input">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" placeholder="Tu contra rey">
+                    </div>
+                    <a href="#">Olvidaste tu contrasenia?</a>
+                    <button class="button">Iniciar sesion </button>
+                </form>
+            </div>
+            <div class="container-form">
+                <form class="sign-up">
+                    <!--division 2-->
+                    <h2>Registrarse</h2>
+                    <div class="social-networks">
+                        <!--Aca colocamos los iconos-->
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <ion-icon name="logo-twitch"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                    <samp>Use Correo para registrarse</samp>
+                    <div class="container-input">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <input type="text" placeholder="Nombre  ">
+                    </div>
+                    <div class="container-input">
+                        <ion-icon name="mail-unread-outline"></ion-icon>
+                        <input type="text" placeholder="Tu correo papi">
+                    </div>
+                    <div class="container-input">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" placeholder="Tu contra rey">
+                    </div>
+                    <button class="button">registrarse</button>
+                </form>
+            </div>
+
+            <div class="container-welcome">
+                <div class="welcome-sign-up welcome">
+                    <h3>Bienvenido</h3>
+                    <p>Ingrese sus datos personales</p>
+                    <button class="button" id="btn-sign-up">Registrarse</button>
+                </div>
+                 <div class="welcome-sign-in welcome">
+                    <h3>Hola</h3>
+                    <p>Registre sus datos!</p>
+                    <button class="button" id="btn-sign-in">Inicar Sesion</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="../js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
